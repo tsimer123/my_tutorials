@@ -1,0 +1,3 @@
+
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/tsimer123/my_tutorials/master/linux/rabbitmq/install_rabbitmq.sh)"
