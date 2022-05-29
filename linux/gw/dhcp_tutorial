@@ -1,5 +1,10 @@
 this doc contains dhcp commands and titorial
 
+isc-dhcp-server - название пакета
+systemctl restart isc-dhcp-server
+
 /var/lib/dhcp3/dhcpd.leases - файл с выданными ip адерсами
 
-/etc/firewall - bash скрипт для настройки фарвола и проброса портов
+/etc/firewall/iptables.sh - bash скрипт для настройки фарвола и проброса портов
+
+/etc/dhcp/dhcp.conf  -файл содержит настроки dhcp пула и закрепление ip за машинами

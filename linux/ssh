@@ -1,0 +1,14 @@
+this doc contains ssh
+
+Передать публичный ключ (на машине откуда отправляется публичный ключ 
+	должен присутствовать приватный ключ)
+
+ssh-copy-id -i key.pub user@host
+
+
+Отклюить авторизацию по паролю
+
+/etc/ssh/sshd_config
+PasswordAuthentication no
+systemctl restart ssh
+
