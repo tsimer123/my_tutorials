@@ -1,0 +1,27 @@
+this doc contains git commands
+
+
+Создать новый репозиторий через командную строку
+
+echo "# tutorial" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:tsimer123/my_tutorials.git
+git push -u origin master
+
+
+Подключить существущий репозиторий к github
+
+git remote add origin git@github.com:tsimer123/my_tutorials.git
+git push -u origin master
+
+
+Клонирование резпозитория
+
+git clone https://github.com/tsimer123/my_tutorials.git
+
+
+Переименовать вету в main
+
+git branch -M main

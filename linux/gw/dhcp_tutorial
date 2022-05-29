@@ -1,0 +1,5 @@
+this doc contains dhcp commands and titorial
+
+/var/lib/dhcp3/dhcpd.leases - файл с выданными ip адерсами
+
+/etc/firewall - bash скрипт для настройки фарвола и проброса портов

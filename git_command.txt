@@ -1,5 +1,0 @@
-this doc contains git commands
-
-git init
-
-git clone https://github.com/tsimer123/tutorial.git
