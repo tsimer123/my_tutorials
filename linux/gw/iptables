@@ -1,0 +1,36 @@
+Example iptables commands
+
+####Просмотр правил####
+
+iptables -L -n -v        					# все правила
+
+											-L : Показать список правил.
+											-v : Отображать дополнительную информацию. Эта опция показывает имя интерфейса, опции, TOS маски. Также отображает суффиксы 'K', 'M' or 'G'.
+											-n : Отображать IP адрес и порт числами (не используя DNS сервера для определения имен. Это ускорит отображение).
+							
+iptables -L -n -v        					# все правила
+
+											--line-numbers : отобразить номера строк
+
+iptables -t nat -L --line-numbers -n		# правила nat
+
+
+####Сохранить правила####
+
+iptables-save > /etc/iptables.rules			# сохранить правила через iptables-save
+
+
+####Хорошая статья по iptables####
+
+http://vasilisc.com/21-examples-iptables
+
+
+####Хорошая статья по iptables NAT####
+
+https://www.cyberciti.biz/faq/how-to-list-all-iptables-rules-in-linux/
+
+
+####Документация механизма iptables (надо почитать)####
+
+https://interface31.ru/tech_it/2020/02/osnovy-iptables-dlya-nachinayushhih-chast-1.html
+https://interface31.ru/tech_it/2021/07/osnovy-iptables-dlya-nachinayushhih-chast-3-tablica-nat.html
